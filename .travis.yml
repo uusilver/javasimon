@@ -1,0 +1,10 @@
+language: java
+jdk: oraclejdk7
+
+# Needs much more tweaking in Gradle so it seems
+#after_success:
+#    - coveralls
+
+branches:
+  only:
+    - master
